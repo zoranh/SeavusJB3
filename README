@@ -1,0 +1,11 @@
+This is Installation of Jbilling 3 open source project for Seavus to compile needed project to offer Jbilling 3 custom implementations
+
+
+git usage notes:
+#You should only use git rebase on your local-only branches. Its purpose is to keep your local, invisible changes up-to-date so that when you publish them they'll be more relevant and easy to understand for others.
+
+#If you are working on a public branch then you can't use git rebase. The first time I ever used git rebase I made this mistake. The remote server had two branches, master and antlr. My local machine had a clone of this repository with those same two branches. Changes were made to the master branch and I mistakenly used git rebase to get them replicated on the antlr branch.
+
+author
+Zoran Hristov
+zoran.hristov@seavus.com
